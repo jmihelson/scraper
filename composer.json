@@ -1,0 +1,19 @@
+{
+    "name": "jmihe/webscraper",
+    "autoload": {
+        "psr-4": {
+            "Scraper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jmihelson",
+            "email": "jmihelson@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "symfony/dom-crawler": "^6.1",
+        "symfony/css-selector": "^6.1"
+    }
+}
